@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Max-Andre' Zils <zilsmc@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/magnumthetyrant1/boilerplate",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+   "bootstrap-sass": "^3.3.6",
+   "angular": "^1.5.0",
+   "font-awesome": "^4.5.0"
+ }
+}
