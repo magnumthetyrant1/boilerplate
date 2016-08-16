@@ -18,7 +18,9 @@ require('./gulp-config/gulpuglify')(gulp);
 
 //Compress CSS [minify-css]
 // =============================================================================
-require('./gulp-config/gulpminifycss')(gulp);
+require('./gulp-config/gulpcleancss')(gulp);
+
+//Compress CSS
 
 //Combine and uglify js files.
 // =============================================================================
