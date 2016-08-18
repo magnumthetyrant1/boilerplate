@@ -1,12 +1,9 @@
 {% extends 'layout.html' %}
 
-{% block title %}My Page{% endblock %}
-
-{% block head %}
-  {% parent %}
-
-{% endblock %}
-
 {% block content %}
-<div class="jumbotron">Hello World</div>
+<div class="container">
+  {% include './partials/nav.html'%}
+  <div class="jumbotron "><h1>Hello World</h1></div>
+</div>
+
 {% endblock %}

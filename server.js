@@ -9,7 +9,8 @@ var
 // Enable the application to access static files.
 // =============================================================================
 app.use(express.static(__dirname + '/public'));
-app.use(favicon(__dirname + '/public/favicon.ico'));
+app.use(express.static(__dirname + '/node_modules'));
+
 // Set the view engine of the application
 // =============================================================================
 require('./config/swig')(app);
@@ -20,7 +21,7 @@ require('./config/routes')(app);
 
 // Set the default port for the application.
 // =============================================================================
-app.listen(port,  (err) => {
+app.listen(port, (err) => {
   console.log('Running on port: ' + port + '.');
 });
 

@@ -1,6 +1,23 @@
 <!doctype html>
 <html>
-{% include './partials/head.html' %}
+<head>
+  <title>Boilerplate</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../dist/styles.css">
+  <meta name="author" content="Max-Andre Zils">
+  <!-- 1. Load libraries -->
+  <!-- Polyfill(s) for older browsers -->
+  <script src="../dist/shim.min.js"></script>
+  <script src="../dist/zone.js"></script>
+  <script src="../dist/Reflect.js"></script>
+  <script src="../dist/system.src.js"></script>
+  <!-- 2. Configure SystemJS -->
+  <script src="../dist/systemjs.config.js"></script>
+  <script>
+    System.import('app').catch(function(err){ console.error(err); });
+  </script>
+</head>
 <body>
   {% block content %}
 
