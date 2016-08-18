@@ -2,14 +2,14 @@ var
   express = require('express'),
   path    = require('path'),
   favicon = require('serve-favicon'),
-  port    = process.env.PORT || 5000,
+  port    = process.env.PORT || 3000,
   app     = express()
 ;
 
 // Enable the application to access static files.
 // =============================================================================
 app.use(express.static(__dirname + '/public'));
-app.use(express.static(__dirname + '/node_modules'));
+app.use('/scripts', express.static( __dirname + '/node_modules'));
 
 // Set the view engine of the application
 // =============================================================================
