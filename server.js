@@ -2,7 +2,7 @@ const
   express = require('express'),
   path    = require('path'),
   favicon = require('serve-favicon'),
-  port    = process.env.PORT || 4000,
+  port    = process.env.PORT || 2000,
   app     = express()
 ;
 
@@ -24,6 +24,7 @@ require('./config/routes')(app);
 // =============================================================================
 app.listen(port, (err) => {
   console.log('Running on port: ' + port + '.');
-});
 
+});
+require('./config/open')(port);
 /*----------------------------END OF FILE-------------------------------------*/
