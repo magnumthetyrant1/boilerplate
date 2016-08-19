@@ -5,25 +5,25 @@ module.exports = (app) => {
   const posts = [
     {
       id: 1,
-      author: 'John',
-      title: 'Templating with EJS',
-      body: 'Blog post number 1'
+      author: 'Max-Andre',
+      title: 'Instructions for use',
+      body: 'Run npm install'
     },
     {
       id: 2,
-      author: 'Drake',
+      author: 'Max',
       title: 'Express: Starting from the Bottom',
       body: 'Blog post number 2'
     },
     {
       id: 3,
-      author: 'Emma',
+      author: 'Max',
       title: 'Streams',
       body: 'Blog post number 3'
     },
     {
       id: 4,
-      author: 'Cody',
+      author: 'Max',
       title: 'Events',
       body: 'Blog post number 4'
     }
@@ -46,6 +46,6 @@ module.exports = (app) => {
       author: post.author,
       title: post.title,
       body: post.body
-    })
-  })
+    });
+  });
 };// End of routes.js
