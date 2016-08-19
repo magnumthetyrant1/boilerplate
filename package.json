@@ -41,10 +41,13 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "browser-sync": "^2.14.0",
     "concurrently": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.12",
     "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
     "gulp-nodemon": "^2.0.6",
     "gulp-sass": "^2.2.0",
     "gulp-uglify": "^1.5.3",

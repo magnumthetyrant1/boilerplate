@@ -20,7 +20,8 @@ require('./gulp-config/gulpuglify')(gulp);
 // =============================================================================
 require('./gulp-config/gulpcleancss')(gulp);
 
-//Compress CSS
+//browserSync
+require('./gulp-config/gulpbrowsersync')(gulp);
 
 //Combine and uglify js files.
 // =============================================================================
