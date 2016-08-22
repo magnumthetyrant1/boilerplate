@@ -24,7 +24,7 @@ require('./config/routes')(app);
 // =============================================================================
 app.listen(port, (err) => {
   console.log('Running on port: ' + port + '.');
-
+  require('./config/open')(port);
 });
-require('./config/open')(port);
+
 /*----------------------------END OF FILE-------------------------------------*/

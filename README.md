@@ -1,7 +1,7 @@
 # Boilerplate
 ---
 ## Description:
-Boilerplate for my mean applications
+Boilerplate for my MEAN applications
 
 ## Usage Notes:
 ---
