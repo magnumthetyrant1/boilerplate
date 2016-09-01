@@ -22,7 +22,7 @@ require('./config/routes')(app);
 
 // Set the default port for the application.
 // =============================================================================
-app.listen(port, (err) => {
+app.listen(port, () => {
   console.log('Running on port: ' + port + '.');
   require('./config/open')(port);
 });
