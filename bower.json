@@ -3,7 +3,7 @@
   "description": "",
   "main": "server.js"
   "authors": [
-    "Max-Andre' Zils <zilsmc@gmail.com>"
+    "Max-Andre Zils <zilsmc@gmail.com>"
   ],
   "license": "ISC",
   "homepage": "https://github.com/magnumthetyrant1/boilerplate",
@@ -19,7 +19,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {
+  "dependencies": {  
    "bootstrap-sass": "^3.3.*",
    "font-awesome": "^4.6.3"
  }

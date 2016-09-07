@@ -1,7 +1,12 @@
 
 
 module.exports = (app) => {
-
+  const jsdefaults = [
+    {
+      id: 1,
+      title: '../'
+    }
+    ];
   const posts = [
     {
       id: 1,

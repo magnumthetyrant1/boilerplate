@@ -1,4 +1,4 @@
-var concat = require('gulp-concat');
+const concat = require('gulp-concat');
 
 module.exports = function (gulp) {
   gulp.task('scripts', function() {

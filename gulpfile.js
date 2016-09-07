@@ -20,8 +20,11 @@ require('./gulp-config/gulpuglify')(gulp);
 // =============================================================================
 require('./gulp-config/gulpcleancss')(gulp);
 
-//browserSync
+//BrowserSync [browser-sync]
 require('./gulp-config/gulpbrowsersync')(gulp);
+
+//Eslint -- Lint Es6 files [lint]
+require('./gulp-config/gulpeslint')(gulp);
 
 //Combine and uglify js files.
 // =============================================================================

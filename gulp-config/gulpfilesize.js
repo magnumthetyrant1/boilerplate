@@ -1,4 +1,4 @@
-var size = require('gulp-filesize');
+const size = require('gulp-filesize');
 
 module.exports  = function (gulp) {
   gulp.src('./css/*.css')
