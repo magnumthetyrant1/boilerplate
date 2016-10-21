@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Boilerplate</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <link rel="stylesheet" href="../dist/styles.css">
   </head>
   <body>
@@ -19,7 +23,7 @@
           <% posts.forEach((post) => { %>
           <a href="/post/<%= post.id %>" class="list-group-item">
             <h4 class="list-group-item-heading"><%= post.title %></h4>
-           
+
           </a>
           <% }) %>
         </div>

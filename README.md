@@ -7,10 +7,15 @@ Boilerplate for my MEAN applications
 ---
 Run:
 ```bash
-$ npm install
+$ yarn
 ```
 
 Then:
 ```bash
 $ gulp
+```
+
+To run an instance of the application with no livereload run:
+```bash
+$ node server.js
 ```

@@ -2,7 +2,7 @@ const
   express = require('express'),
   path    = require('path'),
   favicon = require('serve-favicon'),
-  port    = process.env.PORT || 2000,
+  port    = process.env.PORT || 3000,
   app     = express()
 ;
 

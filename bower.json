@@ -1,7 +1,7 @@
 {
   "name": "boilerplate",
   "description": "",
-  "main": "server.js"
+  "main": "server.js",
   "authors": [
     "Max-Andre Zils <zilsmc@gmail.com>"
   ],
@@ -19,7 +19,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {  
+  "dependencies": {
    "bootstrap-sass": "^3.3.*",
    "font-awesome": "^4.6.3"
  }
