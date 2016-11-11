@@ -4,27 +4,29 @@
     <meta charset="utf-8">
     <title>Boilerplate</title>
     <link rel="stylesheet" href="../dist/styles.css">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <script src="../dist/nav-init.js"></script>
   </head>
   <body>
+    <%- include('partials/navbar') %>
     <div class="container">
-      <%- include('partials/navbar') %>
     <div class="jumbotron">
-      <h1>Boilerplate for MEAN applications</h1>
-      <p class="lead">Check out the templating below!</p>
+      <h1>Hangman</h1>
+      <p class="lead">
+        Select a Difficulty:<div class="dropdown">
+    <input class="dropdown-toggle" type="text">
+    <div class="dropdown-text">Difficulty ...</div>
+    <ul class="dropdown-content">
+      <li><a href="#">Easy</a></li>
+      <li><a href="#">Normal</a></li>
+      <li><a href="#">Hard</a></li>
+    </ul>
+      </p>
     </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="list-group">
-          <!-- loop over blog posts and render them -->
-          <% posts.forEach((post) => { %>
-          <a href="/post/<%= post.id %>" class="list-group-item">
-            <h4 class="list-group-item-heading"><%= post.title %></h4>
-           
-          </a>
-          <% }) %>
-        </div>
-      </div>
-    </div>
+  
     <%- include('partials/footer') %>
     </div>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>

@@ -1,5 +1,5 @@
 const open = require('open');
 
 module.exports = (port) => {
-  open('http://localhost:' + port);
+  open('https://localhost/' + port);
 };

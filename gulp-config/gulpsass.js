@@ -1,4 +1,4 @@
-var sass = require("gulp-sass");
+const sass = require('gulp-sass');
 
 module.exports = function (gulp) {
   gulp.task('sass', function () {
