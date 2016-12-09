@@ -1,4 +1,4 @@
-var gulp = require('gulp');
+const gulp = require('gulp');
 
 // Compile Sass into CSS using gulp-sass [sass].
 // =============================================================================

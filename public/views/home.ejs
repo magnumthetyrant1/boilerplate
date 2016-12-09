@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <title>Boilerplate</title>
     <link rel="stylesheet" href="../dist/styles.css">
+
   </head>
   <body>
-    <div class="container">
-      <%- include('partials/navbar') %>
+    <%- include('partials/navbar') %>
+    <div class="container">      
     <div class="jumbotron">
       <h1>Boilerplate for MEAN applications</h1>
       <p class="lead">Check out the templating below!</p>
@@ -19,7 +20,7 @@
           <% posts.forEach((post) => { %>
           <a href="/post/<%= post.id %>" class="list-group-item">
             <h4 class="list-group-item-heading"><%= post.title %></h4>
-           
+
           </a>
           <% }) %>
         </div>
@@ -27,6 +28,12 @@
     </div>
     <%- include('partials/footer') %>
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <script src="../app/nav_init.js" charset="utf-8"></script>
+
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>

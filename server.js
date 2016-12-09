@@ -15,7 +15,6 @@ app.use(favicon(__dirname + '/public/favicon.ico'));
 // =============================================================================
 require('./config/ejs')(app);
 
-
 // Set the routes for the application
 // =============================================================================
 require('./config/routes')(app);
@@ -26,5 +25,4 @@ app.listen(port, () => {
   console.log('Running on port: ' + port + '.');
   require('./config/open')(port);
 });
-
 /*----------------------------END OF FILE-------------------------------------*/

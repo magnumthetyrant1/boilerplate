@@ -1,5 +1,3 @@
-
-
 // set the view engine to ejs
 module.exports = (app) => {
   app.set('view engine', 'ejs')
