@@ -9,7 +9,11 @@
     "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
+<<<<<<< HEAD
     "typings": "typings",
+=======
+    "typings": "typings"
+>>>>>>> master
   },
   "keywords": [],
   "author": "",
@@ -44,6 +48,12 @@
     "browser-sync": "^2.14.0",
     "concurrently": "^2.0.0",
     "gulp": "^3.9.1",
+    "gulp-debug": "^2.0.1", 
+    "gulp-inject": "^1.2.0", 
+    "gulp-sourcemaps": "^1.5.1", 
+    "gulp-tslint": "^1.4.4", 
+    "gulp-typescript": "^2.5.0", 
+    "gulp-rimraf": "^0.1.1", 
     "gulp-clean-css": "^2.0.12",
     "gulp-concat": "^2.6.0",
     "gulp-eslint": "^3.0.1",
